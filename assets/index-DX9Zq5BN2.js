@@ -20072,7 +20072,7 @@ const dU = e => String(e || "").trim().replace(/\/+$/, "")
     var r, n, s;
     const e = (r = fU()) == null ? void 0 : r.API_BASE
       , t = (s = (n = import.meta) == null ? void 0 : n.env) == null ? void 0 : s.VITE_API_BASE;
-    return dU(e || t || "https://vehicle-server-9k2h.onrender.com")
+    return dU(e || t || "https://vehicle-insurance-backend-a3i7.onrender.com")
 }
   , Z$ = () => {
     var s, i, o, a;
@@ -20080,7 +20080,7 @@ const dU = e => String(e || "").trim().replace(/\/+$/, "")
       , t = (e == null ? void 0 : e.SOCKET_URL) || (e == null ? void 0 : e.API_BASE)
       , r = (i = (s = import.meta) == null ? void 0 : s.env) == null ? void 0 : i.VITE_SOCKET_URL
       , n = (a = (o = import.meta) == null ? void 0 : o.env) == null ? void 0 : a.VITE_API_BASE;
-    return X$(t || r || n || "https://vehicle-server-9k2h.onrender.com/")
+    return X$(t || r || n || "https://vehicle-insurance-backend-a3i7.onrender.com/")
 }
   , vw = J$()
   , ez = Z$()

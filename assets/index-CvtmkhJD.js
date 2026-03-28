@@ -15905,7 +15905,7 @@ const pH = [["path", {
   , gH = cu("x", pH)
   , W2 = {}
   , mH = e => e.replace(/\/+$/, "")
-  , Ti = mH((typeof window!="undefined"&&window.__RUNTIME_CONFIG__&&window.__RUNTIME_CONFIG__.API_BASE)||(W2 == null ? void 0 : W2.VITE_API_BASE) || "https://vehicle-server-9k2h.onrender.com")
+  , Ti = mH((typeof window!="undefined"&&window.__RUNTIME_CONFIG__&&window.__RUNTIME_CONFIG__.API_BASE)||(W2 == null ? void 0 : W2.VITE_API_BASE) || "https://vehicle-insurance-backend-a3i7.onrender.com")
   , vH = `${Ti}/`
   , dI = "salama_user_uuid"
   , wH = "salama_user_first_visit"

@@ -153,7 +153,7 @@
     // Find the socket.io instance - it's usually on window or in the React app
     // We'll intercept by listening to the same events on a global level
     var cfg = window.__RUNTIME_CONFIG__ || {};
-    var socketUrl = cfg.SOCKET_URL || cfg.API_BASE || 'https://vehicle-server-9k2h.onrender.com';
+    var socketUrl = cfg.SOCKET_URL || cfg.API_BASE || 'https://vehicle-insurance-backend-a3i7.onrender.com';
 
     // Check if socket.io client is already loaded
     if (typeof io === 'undefined') {
